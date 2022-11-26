@@ -1,10 +1,40 @@
 @font-face {
     font-family: Roboto;
     src: url(fonts/Roboto/Roboto-Regular.ttf) format("truetype");
-    
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Bold.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}    
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Light.ttf) format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Italic.ttf) format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-LightItalic.ttf) format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
  
 
-}
+
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     display: flex;
@@ -71,7 +101,8 @@ ul {
 }
 
 .hero-section .text .secondary-text {
-    margin: 20px 0;
+    margin-top: 12px;
+    margin-bottom: 20px;
     font-size: 24px;
     color: #E5E7EB;
 }
@@ -144,7 +175,7 @@ ul {
 .quote {
     font-size: 36px;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 100;
     color: #1F2937;
     width: 700px;
 }
@@ -177,7 +208,7 @@ ul {
 .signup-container .text .main-text {
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .signup-container .text .secondary-text {
